@@ -1,0 +1,16 @@
+{
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "endOfLine": "auto",
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": [".js", ".jsx", ".ts", ".tsx"],
+      "options": {
+        "parser": "babel",
+        "singleQuote": false,
+        "jsxSingleQuote": false
+      }
+    }
+  ]
+}
