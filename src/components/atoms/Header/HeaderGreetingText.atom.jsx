@@ -1,10 +1,10 @@
 "use client";
 
-import { useUser } from "@/config/redux/user/userSelector";
+// import { useUser } from "@/config/redux/user/userSelector";
 import { useEffect, useState } from "react";
 
 const HeaderGreetingText = () => {
-  const user = useUser();
+  // const user = useUser();
   const [timeOfDay, setTimeOfDay] = useState("");
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const HeaderGreetingText = () => {
   }, []);
   return (
     <div className='flex flex-col items-start'>
-      <p className='font-black md:flex hidden'>Halo, {user.Name}</p>
+      <p className='font-black md:flex hidden'>Halo, Eka Bayu</p>
       <p className='md:flex hidden'>Selamat {timeOfDay}!</p>
     </div>
   );

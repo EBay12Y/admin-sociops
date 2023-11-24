@@ -36,7 +36,8 @@ const FormSignIn = () => {
             ></iframe>
           </div>
           <p className=''>
-            Silakan login menggunakan akun yang telah disediakan. Kami
+            Mohon maaf apabila ada beberapa fitur tidak berfungsi dengan baik,
+            dikarenakan API dari backend kami sudah tidak aktif. Kami
             merekomendasikan untuk mengakses website ini menggunakan laptop atau
             komputer agar dapat menikmati tampilan penuh. Harap menggunakan
             website showcase ini dengan bijak.

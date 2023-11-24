@@ -141,7 +141,7 @@ const PenggunaFundraising = () => {
             })
           ) : (
             <td colSpan={5} className='capitalize text-center py-10 text-lg'>
-              data tidak ada
+              Data tidak ada
             </td>
           )}
         </TableV3>
